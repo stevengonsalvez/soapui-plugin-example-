@@ -20,7 +20,7 @@ buildscript {
     jcenter()
   }
   dependencies {
-    classpath "gradle.plugin.org.urbanbyte:soapui-gradle-plugin:0.3"
+    classpath "gradle.plugin.org.urbanbyte:soapui-gradle-plugin:0.4"
     classpath fileTree(dir: 'libs', include: '*.jar')
   }
 }
